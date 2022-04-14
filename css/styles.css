@@ -166,11 +166,13 @@ img {
   margin-left: auto;
 }
 
+
 .header-contacts-item:not(:last-child) {
   margin-right: 50px;
 }
 
 .header-contacts {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -182,6 +184,7 @@ img {
 .header-contacts:focus {
   color: var(--accent-color);
 }
+
 .logo-style {
   margin-right: 93px;
   font-family: var(--secondary-font-family);
@@ -198,6 +201,18 @@ img {
 }
 .logo-style-footer {
   color: var(--primary-text-color-theme-dark);
+}
+
+.header-icons{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.header-icons:hover,
+.header-icons:focus{
+  fill:var(--accent-color);
 }
 
 /* ========= END HEADER ========= */
@@ -302,6 +317,41 @@ img {
   padding-bottom: 30px;
 }
 
+.social-list {
+  display: flex;
+  justify-content:center ;
+  padding: 0;
+  margin-top: 16px;
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.social-list-item:not(:last-child){
+  margin-right: 10px;
+}
+
+.social-list-icon{
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-list-icon:hover ,
+.social-list-icon:focus {
+  fill: #ffffff;
+}
 /* ========= END TEAM ========= */
 
 /* ========= START FOOTER ========= */
