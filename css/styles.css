@@ -271,6 +271,17 @@ img {
   margin-right: 30px;
 }
 
+.about-icon{
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.about-svg{
+  margin: 25px 100px;
+}
 /* ========= END ABOUT ========= */
 
 /* ========= START TEAM ========= */
