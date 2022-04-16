@@ -208,11 +208,18 @@ img {
   align-content: center;
   justify-content: center;
   margin-right: 10px;
+  padding: 0;
+  fill: #757575;
 }
 
-.header-icons:hover,
+/*.header-icons:hover,
 .header-icons:focus{
   fill:var(--accent-color);
+}*/
+
+.header-contacts:hover .header-icons,
+.header-contacts:focus .header-icons {
+  fill: var(--accent-color);
 }
 
 /* ========= END HEADER ========= */
@@ -352,6 +359,7 @@ img {
 }
 
 .social-list-icon{
+  fill: #AFB1B8;
 }
 
 .social-list-link:hover,
@@ -359,11 +367,46 @@ img {
   background-color: var(--accent-color);
 }
 
-.social-list-icon:hover ,
-.social-list-icon:focus {
-  fill: #ffffff;
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill:#ffffff ;
 }
+
 /* ========= END TEAM ========= */
+
+/* ========= START CLIENT ========= */
+
+.client-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.client-list-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.client-list-item:not(:last-child){
+  margin-right: 30px;
+}
+
+.client-list-icon{
+  fill: #AFB1B8;
+  
+
+}
+
+/* ========= END CLIENT ========= */
+
 
 /* ========= START FOOTER ========= */
 .address {
