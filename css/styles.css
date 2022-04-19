@@ -238,6 +238,8 @@ img {
   padding-top: 200px;
   padding-bottom: 210px;
   max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   
 }
 
@@ -282,6 +284,10 @@ img {
 }
 
 .about-icon{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 0;
   width: 270px;
   height: 120px;
   background-color: #F5F4FA;
@@ -289,8 +295,10 @@ img {
   margin-bottom: 30px;
 }
 
+
+
 .about-svg{
-  margin: 25px 100px;
+  
 }
 /* ========= END ABOUT ========= */
 
@@ -544,7 +552,7 @@ border-color: var(--accent-color);
 .portfolio-btn-list {
   display: flex;
   align-items: center;
-  margin-bottom: 56px;
+  margin-bottom: 50px;
   justify-content: center;
   padding: 0;
 }
